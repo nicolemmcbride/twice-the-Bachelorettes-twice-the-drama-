@@ -4,7 +4,7 @@
 
 A variety of natural language processing techniques were run to examine all the subtitled text from Season 19 of The Bachelorette, which resulted in a total corpus text of 150,290 words. The overall sentiment of each episode was superbly positive and each episode typically spends 60% of the time centered around dating and 40% of the time centered around decision making and final rose selections. In sum, the season did not show negative sentiment.
 
-To dig deeper into this project, please see see the jupyter notebooks and presentation slides within this repository.
+To dig deeper into this project, please see the final jupyter notebooks and presentation slides within this repository.
 
 ### Design  
 The Bachelorette has been running in the USA for a total of 19 seasons, and this was the first ever season to have two contestants as the Bachelorette vice only one. ABC prides itself on making every season more dramatic that the previous. Therefore, natural language processing will be used to see how dramatic this season really was. This is important for the fandom as most of us are definitely expecting this.
