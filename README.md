@@ -24,3 +24,5 @@ Numpy, Pandas, Scikit-learn, Matplotlib, NLTK, wordcloud, VADER sentiment, gensi
 
 ### Communication  
 I completed a 5-minute presentation of my findings; slides and visuals for this project are included in this repository. Future work may include comparison of a prior season of the show, topic modeling across episodes, and re-segmenting the time interval.
+
+<img width="936" alt="Screen Shot 2022-11-02 at 20 27 34" src="https://user-images.githubusercontent.com/80511410/199478506-c34945dd-a228-420b-ad17-9b52982e0509.png">
