@@ -17,6 +17,8 @@ All subtitled text were downloaded as .srt files from opensubtitles.org. The fil
 
 **Exploratory Analysis:** A world cloud was created to display the most common words for each episode. This world cloud revealed that “love” was a top word, but mostly after episode 6. A horizontal bar chart of how many times “love” was said for each episode revealed that “love” was said the most in Episodes 7, 9, and 11. This makes sense because episode 7 is where the contestants get to take the Bachelorette to their hometown, episode 9 is where the contestant and the Bachelorette get to spend the whole day and night together, and episode 11 is the finale.  
 
+<img width="936" alt="Screen Shot 2022-11-02 at 20 27 34" src="https://user-images.githubusercontent.com/80511410/199478506-c34945dd-a228-420b-ad17-9b52982e0509.png">
+
 **Textual Analysis:** A Vader sentiment analysis was performed on all the subtitled text for each episode and revealed an average compound score for each episode of .99. A series of topic models were performed using a variety of techniques and manipulation of variety of hyperparameters, such as min_df, max_df, iterations, vectorization, stop word removal, and part of speech tagging. After 24 topic models run, the model that pulled nouns, adjectives, plural nouns, and eliminated words that appeared in less than 25% of the documents and words that appeared in more than 80% of the documents were removed. This model resulted in two topics - “Dating” and “Rose Selection”. These topics were applied to the episode segment corpus and found that “Dating” was most found in the intro, first ⅓, and second ⅓ of each episode and “Rose Selection” for the third ⅓ and outro of each episode.
 
 ### Tools  
@@ -24,5 +26,3 @@ Numpy, Pandas, Scikit-learn, Matplotlib, NLTK, wordcloud, VADER sentiment, gensi
 
 ### Communication  
 I completed a 5-minute presentation of my findings; slides and visuals for this project are included in this repository. Future work may include comparison of a prior season of the show, topic modeling across episodes, and re-segmenting the time interval.
-
-<img width="936" alt="Screen Shot 2022-11-02 at 20 27 34" src="https://user-images.githubusercontent.com/80511410/199478506-c34945dd-a228-420b-ad17-9b52982e0509.png">
